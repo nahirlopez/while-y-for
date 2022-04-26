@@ -20,6 +20,11 @@ public class holamundo : MonoBehaviour
 
     public void holamundofuncion()
     {
-        Debug.Log("Hola mundo");
+        int counter = 0;
+        while (counter < 5)
+        {
+            Debug.Log("Hola mundo");
+            counter++;
+        }
     }
 }
